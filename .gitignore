@@ -1,5 +1,14 @@
-build/**
-BranchMonsterFactory.xcodeproj/xcuserdata
+#  Mac
+.DS_Store
+.LSOverride
+
+#  Build products
+[Bb]uild
+xcuserdata
 *.xccheckout
 *.xcuserdatad
-*.DS_Store
+xcuserdata
+
+#  Cocoa Pods
+Pods
+Podfile.lock
